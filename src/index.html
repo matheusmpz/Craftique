@@ -9,10 +9,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
-<body class="w-[1600px] mx-auto font-inter">
-    <header class="flex justify-between items-center py-6">
+<body class="font-sora">
+    <header class="w-[1600px] mx-auto  flex justify-between items-center py-6">
         <article>
             <img src="../assets/global-assets/logo.svg" alt="Logotipo Craftique">
         </article>
@@ -28,7 +28,7 @@
             </div>
         </article>
     </header>
-    <main>
+    <main class="w-[1600px] mx-auto">
         <section class="my-20 flex items-center justify-between">
             <div class="space-y-8">
                 <h1 class="w-[572px] text-6xl tracking-wide">Onde a <span class="font-bold">Tradição</span><br> e a <span class="font-bold">Inovação</span> se Encontram em <br> Cada <span class="font-bold">Detalhe</span></h1>
@@ -65,6 +65,81 @@
                 </div>
             </article>
         </section>
+
+        <section class="flex my-20 justify-around items-center">
+            <article class="flex flex-col gap-6">
+                <h2 class="text-5xl leading-none">Transforme suas <br> <span class="font-bold">Ideias</span> em <span class="font-bold">Realidade</span> <br> com a Craftique</h2>
+                <p class="w-[454px]">Na Craftique, acreditamos que cada peça artesanal deve ser <span class="font-bold text-[#E48900]">tão única</span> quanto quem a adquire. Nossos artesãos altamente qualificados trabalham lado a lado com você para criar móveis e objetos de decoração sob medida, <span class="font-bold text-[#E48900]">adaptados ao seu gosto</span> e espaço.</p>
+                <a href="catalogo.html" class="bg-[#E48900] text-white text-sm rounded-lg px-5 py-4 w-56 flex items-center justify-center">Conheça algumas peças</a>
+            </article>
+            <article>
+                <img src="../assets/index-assets/etapas.png" alt="">
+            </article>
+        </section>
+
+        <section class="flex items-center justify-between my-40">
+            <article>
+                <p class="w-[330px]">Descubra o que <span class="font-bold">nossos <br> clientes</span> têm a dizer sobre suas <br> <span class="font-bold">experiências</span> com a Craftique</p>
+            </article>
+            <article class="flex flex-wrap justify-center items-center space-x-20 space-y-8">
+                <div class="flex flex-col justify-center items-center space-y-4 w-[440px] h-[240px]  bg-[#F5F1EB] rounded-xl">
+                    <p class="font-bold">Laura Silva</p>
+                    <p class="w-[351px] text-sm">Encomendei um armário personalizado para minha sala, e o resultado foi espetacular! O cuidado com os detalhes e a qualidade da peça superaram minhas expectativas. Cada vez que olho para o armário, lembro do quanto foi especial todo o processo de criação.</p>
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-4 w-[440px] h-[240px] bg-[#E48900] rounded-xl text-white">
+                    <p class="font-bold">Mariana Gomes</p>
+                    <p class="w-[351px] text-sm">Estou encantada com o meu novo mini armário organizador! Ele se encaixa perfeitamente na minha decoração e é super prático. A atenção aos detalhes e a escolha dos materiais realmente mostram a dedicação da Craftique em criar peças únicas e personalizadas.</p>
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-4 w-[440px] h-[240px] ml-40 bg-[#F5F1EB] rounded-xl">
+                    <p class="font-bold">Fernando Tavares</p>
+                    <p class="w-[351px] text-sm">A Craftique transformou minha ideia em uma linda realidade! Desde o primeiro contato, a equipe foi atenciosa e profissional. O armário que recebi é não apenas funcional, mas também uma verdadeira obra de arte que se destaca na minha casa. </p>
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-4 w-[440px] h-[240px] bg-[#E48900] rounded-xl text-white">
+                    <p class="font-bold">Cláudia Almeida</p>
+                    <p class="w-[365px] text-sm">A equipe da Craftique demonstrou um comprometimento incrível em entender minhas necessidades. O armário que encomendei não só atendeu ao que eu imaginava, como se tornou o destaque da minha sala. A qualidade do trabalho é excepcional, e eu estou muito satisfeita!</p>
+                </div>
+            </article>
+        </section>
     </main>
+
+    <hr class="border-t border-black my-4">
+
+    <footer class="w-[1600px] mx-auto my-12 flex space-x-40">
+        <article class="space-y-6">
+            <h3 class="font-bold text-xl">Formulário de Contato:</h3>
+            <form action="" class="flex space-x-8">
+                <div class="flex flex-col space-y-6">
+                    <article class="flex flex-col">
+                        <label for="name">Nome:</label>
+                    <input type="text" id="name" placeholder="Lucas Carvalho" class="border rounded-md px-4 py-2 h-12 w-[400px]">
+                    </article>
+                    <article class="flex flex-col">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="" id="email" placeholder="exemplo@email.com" class="border rounded-md px-4 py-2 h-12 w-[400px]">
+                    </article>
+                </div>
+                <div class="flex flex-col space-y-6">
+                    <div class="flex flex-col">
+                        <label for="mensage">Mensagem:</label>
+                        <textarea placeholder="Proposta de orçamento para uma..." class="border rounded-md px-4 py-2 w-[400px] h-[120px]"></textarea>
+                    </div>
+                    <div class="flex justify-end">
+                        <button class="bg-[#E48900] text-white text-sm rounded-lg px-4 py-4 w-56 flex items-center justify-center" type="submit">Enviar mensagem</button>
+                    </div>
+                </div>
+            </form>
+        </article>
+        <article class="space-y-8">
+            <h3 class="font-bold text-xl">Ficou com alguma dúvida sobre a Craftique?</h3>
+            <p>Estamos aqui para ajudar você com qualquer questão. Envie sua <br> mensagem através do formulário ou pelas nossas redes sociais.</p>
+            <div class="flex space-x-4 text-sm underline">
+                <a href="https://www.instagram.com/craftique" target="_blank">Intagram</a>
+                <a href="https://www.facebook.com/craftique" target="_blank">Facebook</a>
+                <a href="https://www.pinterest.com/craftique" target="_blank">Pinterest</a>
+            </div>
+            <img src="../assets/global-assets/logo.svg" alt="Logo">
+        </article>
+    </footer>
+    <p class="text-center py-4 opacity-80 text-sm">© 2024 Craftique. Todos os direitos reservados. É proibida a reprodução total ou parcial deste site sem autorização prévia.</p>
 </body>
 </html>
