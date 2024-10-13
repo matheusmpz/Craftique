@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
-<body class="font-sora">
+<body class="font-sora text-[#080808]">
     <header class="w-[1600px] mx-auto  flex justify-between items-center py-6">
         <article>
             <a href="index.html"><img src="../assets/global-assets/logo.svg" alt="Logotipo Craftique"></a>
@@ -22,9 +22,9 @@
                 <a href="catalogo.html" class="hover:text-[#E48900]"><p class="cursor-pointer">Produtos</p></a>
             </div>
             <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <button id="openBag"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99996 8V9H7.35062C6.07062 9 4.99862 9.96533 4.86396 11.2387L3.17996 27.2387C3.14333 27.5871 3.18036 27.9394 3.28864 28.2726C3.39693 28.6058 3.57405 28.9126 3.80852 29.173C4.04298 29.4333 4.32956 29.6415 4.64966 29.784C4.96977 29.9265 5.31624 30.0001 5.66662 30H26.3333C26.6837 30.0001 27.0301 29.9265 27.3502 29.784C27.6704 29.6415 27.9569 29.4333 28.1914 29.173C28.4259 28.9126 28.603 28.6058 28.7113 28.2726C28.8196 27.9394 28.8566 27.5871 28.82 27.2387L27.136 11.2387C27.0714 10.6242 26.7815 10.0554 26.3223 9.64201C25.8632 9.22862 25.2671 8.99991 24.6493 9H22V8C22 6.4087 21.3678 4.88258 20.2426 3.75736C19.1174 2.63214 17.5913 2 16 2C14.4087 2 12.8825 2.63214 11.7573 3.75736C10.6321 4.88258 9.99996 6.4087 9.99996 8ZM16 4C14.9391 4 13.9217 4.42143 13.1715 5.17157C12.4214 5.92172 12 6.93913 12 8V9H20V8C20 6.93913 19.5785 5.92172 18.8284 5.17157C18.0782 4.42143 17.0608 4 16 4ZM12 15C12 16.0609 12.4214 17.0783 13.1715 17.8284C13.9217 18.5786 14.9391 19 16 19C17.0608 19 18.0782 18.5786 18.8284 17.8284C19.5785 17.0783 20 16.0609 20 15V14C20 13.7348 20.1053 13.4804 20.2929 13.2929C20.4804 13.1054 20.7347 13 21 13C21.2652 13 21.5195 13.1054 21.7071 13.2929C21.8946 13.4804 22 13.7348 22 14V15C22 16.5913 21.3678 18.1174 20.2426 19.2426C19.1174 20.3679 17.5913 21 16 21C14.4087 21 12.8825 20.3679 11.7573 19.2426C10.6321 18.1174 9.99996 16.5913 9.99996 15V14C9.99996 13.7348 10.1053 13.4804 10.2929 13.2929C10.4804 13.1054 10.7347 13 11 13C11.2652 13 11.5195 13.1054 11.7071 13.2929C11.8946 13.4804 12 13.7348 12 14V15Z" fill="#E48900"/>
-                </svg>
+                </svg></button>
             </div>
         </article>
     </header>
@@ -100,6 +100,52 @@
                 </div>
             </article>
         </section>
+
+        <!-- MODAL -->
+        <section id="modal" class=" fixed inset-0 flex justify-end bg-black bg-opacity-50 hidden">
+            <div class="space-y-4 bg-white w-[470px] h-[480px] flex flex-col justify-center p-4 rounded-lg mt-[80px] mr-[160px]">
+                <article class="space-y-3">
+                    <div class="flex items-center space-x-6">
+                        <div>
+                            <img src="../assets/modal-assets/img-modal.png" alt="Produto">
+                        </div>
+                        <div>
+                            <p class="font-medium">Armário Clássico de Porta</p>
+                            <p class="font-light text-sm">Quant.: <span class="font-medium">1</span></p>
+                            <p class="font-light text-sm">Cor: <span class="font-medium">Carvalho branco</span></p>
+                            <p class="font-light text-sm">Dimensões: <span class="font-medium">1,20mx1,80mx0,5m</span></p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <button class="py-2 px-4 bg-[#080808] text-white rounded-lg text-sm">Remover</button>
+                        <p class="font-medium text-xl">R$ 2.775,00</p>
+                    </div>
+                </article>
+                <hr>
+                <article class="space-y-3">
+                    <div class="flex items-center space-x-6">
+                        <div>
+                            <img src="../assets/modal-assets/img-modal.png" alt="Produto">
+                        </div>
+                        <div>
+                            <p class="font-medium">Armário Clássico de Porta</p>
+                            <p class="font-light text-sm">Quant.: <span class="font-medium">1</span></p>
+                            <p class="font-light text-sm">Cor: <span class="font-medium">Carvalho branco</span></p>
+                            <p class="font-light text-sm">Dimensões: <span class="font-medium">1,20mx1,80mx0,5m</span></p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between">
+                        <button class="py-2 px-4 bg-[#080808] text-white rounded-lg text-sm">Remover</button>
+                        <p class="font-medium text-xl">R$ 2.775,00</p>
+                    </div>
+                </article>
+
+                <article class="flex space-x-3 pt-3">
+                    <button id="closeModal" class="bg-[#080808] text-white text-sm rounded-lg px-4 py-3 w-56 flex items-center justify-center" type="submit">Cancelar Compra</button>
+                    <button class="bg-[#E48900] text-white text-sm rounded-lg px-4 py-3 w-56 flex items-center justify-center" type="submit">Finalizar Compra</button>
+                </article>
+            </div>
+        </section>
     </main>
 
     <hr class="border-t border-black my-4">
@@ -141,5 +187,7 @@
         </article>
     </footer>
     <p class="text-center py-4 opacity-80 text-sm">© 2024 Craftique. Todos os direitos reservados. É proibida a reprodução total ou parcial deste site sem autorização prévia.</p>
+
+    <script src="script.js"></script>
 </body>
 </html>
