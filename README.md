@@ -29,5 +29,7 @@ Apresentação no behance: https://www.behance.net/matheusmpz
 Para perguntas ou feedback, sinta-se à vontade para entrar em contato:
 
 E-mail: matheus.psoares4@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/matheusmpz/
+
 Este projeto é de uso pessoal e não deve ser utilizado sem a minha autorização.
