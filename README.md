@@ -1,12 +1,16 @@
+# Craftique
+
+![Capa da Aplicação](assets/readme/hero.png)
+
 Craftique é um projeto de uma loja virtual de artesanato. O site tem como objetivo apresentar peças artesanais de forma única, com uma interface moderna e intuitiva. Ele oferece uma experiência agradável para quem deseja conhecer e adquirir peças artesanais exclusivas, com uma página dedicada à biografia dos artesãos.
 
-Tecnologias Utilizadas:
+## Tecnologias Utilizadas:
 - HTML5
 - Tailwind CSS
 - Heroicons (para ícones)
 - Figma
   
-Funcionalidades:
+## Funcionalidades:
 - Página Principal: Uma apresentação inicial com destaque para as peças artesanais.
 - Página "Jornada": Biografia dos artesãos, contando sua história e inspirações.
 - Página de Detalhes do Produto: Informações detalhadas sobre cada peça, com imagens e descrições completas.
@@ -14,11 +18,11 @@ Funcionalidades:
 - Design Moderno: Interface agradável, com foco na estética visual.
 - Acessível: Layout simples e de fácil navegação para todos os tipos de usuários.
 
-Melhorias Futuras
+## Melhorias Futuras
 - Responsividade: Implementar layout responsivo para dispositivos móveis.
 - Integração com sistema de carrinho: Possibilidade de adicionar produtos ao carrinho e finalizar compras.
 - Filtragem de Produtos: Opções para filtrar as peças por tipo, material ou preço.
 
-Licença:
+## Licença:
 
 Todos os direitos reservados. Este código não pode ser utilizado, modificado ou distribuído sem permissão explícita do autor.
