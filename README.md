@@ -23,6 +23,11 @@ Craftique é um projeto de uma loja virtual de artesanato. O site tem como objet
 - Integração com sistema de carrinho: Possibilidade de adicionar produtos ao carrinho e finalizar compras.
 - Filtragem de Produtos: Opções para filtrar as peças por tipo, material ou preço.
 
-## Licença:
+## Informações adicionais
+Apresentação no behance: https://www.behance.net/matheusmpz
 
-Todos os direitos reservados. Este código não pode ser utilizado, modificado ou distribuído sem permissão explícita do autor.
+Para perguntas ou feedback, sinta-se à vontade para entrar em contato:
+
+E-mail: matheus.psoares4@gmail.com
+LinkedIn: https://www.linkedin.com/in/matheusmpz/
+Este projeto é de uso pessoal e não deve ser utilizado sem a minha autorização.
